@@ -147,8 +147,8 @@ class MiniRenamerApp:
     def __init__(self, root):
         self.root = root
         root.title("Surr - Renamer powered by Surrendr.art")
-        root.geometry("780x720")
-        root.minsize(700, 600)
+        root.geometry("820x820")
+        root.minsize(760, 760)
 
         self.files = []
 
